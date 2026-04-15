@@ -129,7 +129,7 @@ Jugnu
 
 🌐 GitHub
 
-https://github.com/WifiteX-Fun
+https://github.com/RupeshShide/WifiteX-Fun
 
 ---
 
