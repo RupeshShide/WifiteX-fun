@@ -61,8 +61,8 @@ This project is strictly for educational purposes only.
 
 1️⃣ Clone Repository
 
-git clone https://github.com/WifiteX-Fun/wifitex-fun.git
-cd wifitex
+git clone https://github.com/RupeshShide/WifiteX-Fun
+cd WifiteX-Fun
 
 ---
 
