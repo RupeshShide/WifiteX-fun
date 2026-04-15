@@ -63,6 +63,7 @@ This project is strictly for educational purposes only.
 
 git clone https://github.com/RupeshShide/WifiteX-Fun
 
+
 cd WifiteX-Fun
 
 ---
@@ -113,11 +114,13 @@ wifitex
 🖼️ Preview
 
 🔍 Scanning WiFi networks...
+
 [##########----------] 50%
 
 [####################] 100%
 
 📡 Available Networks:
+
 [0] JioFiber | WPA2 | -40 dBm
 
 [1] Airtel_X | WPA2 | -55 dBm
