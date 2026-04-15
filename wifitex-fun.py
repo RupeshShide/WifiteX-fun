@@ -44,7 +44,7 @@ def scan():
     clear()
     banner()
 
-    progress("🔍 Scanning WiFi networks...")
+    progress("[*] Scanning WiFi networks...")
 
     print(GREEN + "Network scan completed. Select network below:\n" + RESET)
 
@@ -65,8 +65,8 @@ def simulate_attack(network):
     clear()
     banner()
 
-    print(GREEN + f"🎯 Target: {network[0]}" + RESET)
-    print(YELLOW + f"🔐 Security: {network[1]}\n" + RESET)
+    print(GREEN + f"[*] Target: {network[0]}" + RESET)
+    print(YELLOW + f"[*] Security: {network[1]}\n" + RESET)
 
     steps = [
         "Checking interface...",
@@ -80,12 +80,12 @@ def simulate_attack(network):
         progress(step)
 
     result = random.choice([
-        "⚠️ Weak password detected! Saved in ~/wifitex/passwords.txt",
-        "❌ Attack failed! Network is secure",
-        "🔓 Password cracked! Check ~/wifitex/output.txt"
+        "[!] Weak password detected! Saved in ~/wifitex/passwords.txt",
+        "[X] Attack failed! Network is secure",
+        "[+] Password cracked! Check ~/wifitex/output.txt"
     ])
 
-    print(BOLD + YELLOW + "📊 Result: " + RESET + result)
+    print(BOLD + YELLOW + "[+] Result: " + RESET + result)
 
 # ===== MAIN =====
 def main():
@@ -112,17 +112,17 @@ def main():
                     simulate_attack(nets[idx])
 
                 except:
-                    print(RED + "❌ Invalid selection!" + RESET)
+                    print(RED + "[X] Invalid selection!" + RESET)
 
             elif choice == "0":
-                print(GREEN + "Thank you 👋" + RESET)
+                print(GREEN + "Thank you" + RESET)
                 break
 
             else:
-                print(RED + "❌ Invalid option!" + RESET)
+                print(RED + "[X] Invalid option!" + RESET)
 
         except KeyboardInterrupt:
-            print(RED + "\n❌ Interrupted! Returning to menu..." + RESET)
+            print(RED + "\n[X] Interrupted! Returning to menu..." + RESET)
             continue
 
         input("\nPress Enter to continue...")
