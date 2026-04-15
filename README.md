@@ -73,11 +73,13 @@ cd WifiteX-Fun
 📱 Termux:
 
 pkg update && pkg upgrade
+
 pkg install python
 
 🐧 Linux (Kali/Ubuntu/Debian):
 
 sudo apt update
+
 sudo apt install python3
 
 ---
@@ -117,11 +119,16 @@ wifitex
 
 [##########----------] 50%
 
+
 [####################] 100%
+
+
 
 📡 Available Networks:
 
+
 [0] JioFiber | WPA2 | -40 dBm
+
 
 [1] Airtel_X | WPA2 | -55 dBm
 
